@@ -20,7 +20,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
 
 
     // file upload using java script 
-   /*const inpFile = document.getElementById('inpFile');
+   /*const inpFile = document.getElementById('inpFile')= 
    inpFile.addEventListener("change", function(){
     console.log(inpFile.files);
     for(const file of inpFile.files){
@@ -32,16 +32,16 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
    })*/
 
    //rest operator
-   /*function sum(name, ...args){
-    console.log(arguments);
-    document.write(`hello ${name}`)
-    let sum = 0;
-    for(let i in args)
-    sum += args[i];
-    document.write(sum + " <br>");
-   }
-   sum("sam", 20,40)
-   sum("amit", 20,4,6)*/
+//    function sum(name, ...args){
+//     console.log(arguments);
+//     document.write(`hello ${name}`)
+//     let sum = 0;
+//     for(let i in args)
+//     sum += args[i];
+//     document.write(sum + " <br>");
+//    }
+//    sum("sam", 20,40)
+//    sum("amit", 20,4,6)
 
    //spread operator
    /*function sum(name, ...args){
@@ -60,24 +60,36 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
    let [name, age, city,[gender, salary]] = users;
    console.log(name, age, city, gender, salary);*/
 
-   let product =[
-    {
-        name: "sam",
-        price: 6999
-    },
-    {
-        name: "amit",
-        price: 8999
-    },
-    {
-        name: "shivam",
-        price: 7999
-    },
+//    let product =[
+//     {
+//         name: "sam",
+//         price: 6999
+//     },
+//     {
+//         name: "amit",
+//         price: 8999
+//     },
+//     {
+//         name: "shivam",
+//         price: 7999
+//     },
+//    ];
+//    console.table(product);
 
+//09-12-2032
 
-   ];
+ sum = (a,b) => (a+b);
+console.log(sum(12,5));
 
-   console.table(product);
+function sum(){
+    console.log(arguments);
 
-
-
+    let sum = 0;
+    for(let i in arguments){
+        sum += arguments[i];
+    }
+    document.write(sum);
+        
+}
+sum("sam", 20,40)
+sum("amit", 20,4,6)
