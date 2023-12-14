@@ -15,4 +15,4 @@ client.on('interactionCreate', (Interaction) => {
     Interaction.reply('pong..!')
 })
 
-client.login('MTE4NDczNDI1ODUyMzI4NzU2Mw.GtgwZW.eb1XCp0wtls_SC9lMrouKF0fyKLKv5i6BkCsqw');
+client.login('PASTE TOKEN HERE');
